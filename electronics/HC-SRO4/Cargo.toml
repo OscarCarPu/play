@@ -12,6 +12,7 @@ esp32c3 = []
 [dependencies]
 esp-idf-svc = { version = "0.51", features = ["binstart"] }
 esp-idf-hal = "0.45.2"
+esp-idf-sys = { version = "0.36", features = ["binstart"] }
 anyhow = "1.0.101"
 log = "0.4"
 
